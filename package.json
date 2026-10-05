@@ -4,6 +4,16 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo 'tests passed' && exit 0"
+    "test": "jest",
+    "lint": "eslint src/ tests/"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "jest": "^30.5.2"
+  },
+  "dependencies": {
+    "pg": "^8.23.1"
   }
 }
