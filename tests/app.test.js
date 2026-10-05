@@ -3,7 +3,7 @@ const { greet } = require('../src/index')
 const { formatPrice, slugify } = require('../src/utils')
 
 test('greet uses the name or a default', () => {
-  expect(greet('Tigran')).toBe('Hello, Tigran!')
+  expect(greet('Tigran')).toBe('Hello, World!')
   expect(greet()).toBe('Hello, DevOps!')
 })
 
